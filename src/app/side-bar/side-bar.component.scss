@@ -1,0 +1,17 @@
+:host{
+  width: 35%;
+  height: 20rem;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  margin: 0.5rem;
+  font-size: xx-large;
+}
+
+/* === media queries === */
+
+@media only screen and (max-width: 500px) {
+  :host {
+    width: 100%;
+  }
+}
